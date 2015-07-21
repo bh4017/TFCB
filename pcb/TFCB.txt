@@ -1,0 +1,4 @@
+Reading netlist file "/media/brian/BJH_128GB/GoogleDrive/EMS/Working/TestFixtureControlBoardV1.5/TFCB.net".
+Using component footprint link file "/media/brian/BJH_128GB/GoogleDrive/EMS/Working/TestFixtureControlBoardV1.5/TFCB.cmp".
+*** Error: Component 'J5' pad '5' not found in footprint 'bjh-kicad-connector-fp:USB2.0-B-RCPT-SMT-TEConn-1734346-1' ***
+*** Error: Component 'J5' pad '6' not found in footprint 'bjh-kicad-connector-fp:USB2.0-B-RCPT-SMT-TEConn-1734346-1' ***

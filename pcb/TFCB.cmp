@@ -1,0 +1,486 @@
+Cmp-Mod V01 Created by Cvpcb 0.201505232246+5679~23~ubuntu14.04.1-product   date = Sun 24 May 2015 16:01:36 BST
+
+BeginCmp
+TimeStamp = /5507332F/550746AC;
+Reference = C1;
+ValeurCmp = CP;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/550743AE;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/55074718;
+Reference = C3;
+ValeurCmp = CP;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/550749AD;
+Reference = C4;
+ValeurCmp = CP;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/55074AB7;
+Reference = C5;
+ValeurCmp = CP;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/5507E701;
+Reference = C6;
+ValeurCmp = CP;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/5507E79B;
+Reference = C7;
+ValeurCmp = CP;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550B2332;
+Reference = C8;
+ValeurCmp = CP;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/5536C0B7;
+Reference = C9;
+ValeurCmp = 18pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550B1992;
+Reference = C10;
+ValeurCmp = 18pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550AF0FD;
+Reference = C11;
+ValeurCmp = 10nF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550B1A10;
+Reference = C12;
+ValeurCmp = 18pF;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550ADADD;
+Reference = C13;
+ValeurCmp = CP;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550AC87A;
+Reference = C14;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550AC8FD;
+Reference = C15;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550AC9E1;
+Reference = C16;
+ValeurCmp = CP;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550ACA28;
+Reference = C17;
+ValeurCmp = CP;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/550808BC;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:Diode_LED_5mm_round_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/55080A71;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LEDs:Diode_LED_5mm_round_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/55080ABD;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LEDs:Diode_LED_5mm_round_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/55080B07;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LEDs:Diode_LED_5mm_round_vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/55074820;
+Reference = D5;
+ValeurCmp = D;
+IdModule  = Diodes_SMD:Diode-SMB_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/5507431B;
+Reference = D6;
+ValeurCmp = D;
+IdModule  = Diodes_SMD:Diode-SMB_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/553A09C0;
+Reference = J1;
+ValeurCmp = CONN_02X10;
+IdModule  = bjh-kicad-connector-fp:RCPT-2row-2.54mm-20way;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/553A0CD5;
+Reference = J2;
+ValeurCmp = CONN_02X10;
+IdModule  = bjh-kicad-connector-fp:RCPT-2row-2.54mm-20way;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/553A0E01;
+Reference = J3;
+ValeurCmp = CONN_02X10;
+IdModule  = bjh-kicad-connector-fp:RCPT-2row-2.54mm-20way;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/553A0EC0;
+Reference = J4;
+ValeurCmp = CONN_02X10;
+IdModule  = bjh-kicad-connector-fp:RCPT-2row-2.54mm-20way;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550AE58B;
+Reference = J5;
+ValeurCmp = USB;
+IdModule  = bjh-kicad-connector-fp:USB2.0-B-RCPT-SMT-TEConn-1734346-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550AC632;
+Reference = J6;
+ValeurCmp = DB9;
+IdModule  = bjh-kicad-connector-fp:Tyco-DB9-SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/5536FE51;
+Reference = J7;
+ValeurCmp = SPI1;
+IdModule  = bjh-kicad-connector-fp:Weidmuller-SL-5.08-Vertical-5Pole;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/553700AC;
+Reference = J8;
+ValeurCmp = SPI2;
+IdModule  = bjh-kicad-connector-fp:Weidmuller-SL-5.08-Vertical-5Pole;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550C09DD;
+Reference = J9;
+ValeurCmp = RJ11 ICD;
+IdModule  = bjh-kicad-connector-fp:Molex-44144-0005-RJ11-Jack-6Way-SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550C11C7;
+Reference = J10;
+ValeurCmp = PICKIT;
+IdModule  = bjh-kicad-connector-fp:RCPT-1row-2.54mm-6way;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/55083B92;
+Reference = J11;
+ValeurCmp = CONN_01X02;
+IdModule  = bjh-kicad-connector-fp:Weidmuller-SL-5.08-Vertical-2Pole;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/55083003;
+Reference = J12;
+ValeurCmp = CONN_01X04;
+IdModule  = bjh-kicad-connector-fp:Weidmuller-SL-5.08-Vertical-4Pole;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/5537FBDD;
+Reference = JP1;
+ValeurCmp = Jumper;
+IdModule  = bjh-kicad-connector-fp:jumper-2way-through-hole;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/5537FD70;
+Reference = JP2;
+ValeurCmp = Jumper;
+IdModule  = bjh-kicad-connector-fp:jumper-2way-through-hole;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/5537E7C4;
+Reference = JP3;
+ValeurCmp = Jumper;
+IdModule  = bjh-kicad-connector-fp:jumper-2way-through-hole;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/5537E82D;
+Reference = JP4;
+ValeurCmp = Jumper;
+IdModule  = bjh-kicad-connector-fp:jumper-2way-through-hole;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/5507406A;
+Reference = Q1;
+ValeurCmp = Q_PMOS_GDS;
+IdModule  = bjh-kicad-transistor-fp:TO-263;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/55080BED;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/55080D8F;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/55080DFA;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/55080E6E;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/550741A2;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/55074222;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550AF0AE;
+Reference = R7;
+ValeurCmp = 15K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550AF4A8;
+Reference = R8;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550C0640;
+Reference = R9;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550C06AA;
+Reference = R10;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550C0B47;
+Reference = R11;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550C67FE;
+Reference = R12;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550C6CB7;
+Reference = R13;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550C6D1A;
+Reference = R14;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/55370AA4;
+Reference = R15;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550C6D80;
+Reference = R16;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550C6DEF;
+Reference = R17;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550C6E5B;
+Reference = R18;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/55370B3E;
+Reference = R19;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/55377643;
+Reference = R20;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550AF634;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = bjh-kicad-switches-fp:PushButton-OMRON-B3FS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/55393021;
+Reference = U1;
+ValeurCmp = REG-LM317;
+IdModule  = bjh-kicad-transistor-fp:TO-263-with-copper-heatsink;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/55074BA6;
+Reference = U2;
+ValeurCmp = REG-7805;
+IdModule  = bjh-kicad-transistor-fp:TO-263-with-copper-heatsink;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507332F/5507E6C6;
+Reference = U3;
+ValeurCmp = LD1086-3.3;
+IdModule  = bjh-kicad-transistor-fp:TO-263;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/55391FF9;
+Reference = U4;
+ValeurCmp = PIC-18F87J50-TQFP;
+IdModule  = Housings_QFP:TQFP-80_12x12mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550AC7C4;
+Reference = U5;
+ValeurCmp = MAX3232_BJH;
+IdModule  = Housings_SOIC:SOIC-16_7.5x10.3mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/5537C469;
+Reference = U6;
+ValeurCmp = LM431;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/553773D4;
+Reference = U7;
+ValeurCmp = REF-LM4040;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55073CC8/550B18F9;
+Reference = Y1;
+ValeurCmp = Crystal;
+IdModule  = Crystals_Oscillators_SMD:Q_49U3HMS;
+EndCmp
+
+EndListe
