@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:TFCB-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -48,7 +48,7 @@ Sheet 3 3
 Title ""
 Date ""
 Rev ""
-Comp ""
+Comp "hoskins.tech"
 Comment1 ""
 Comment2 ""
 Comment3 ""

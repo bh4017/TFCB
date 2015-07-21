@@ -10,6 +10,7 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
+LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -1740,7 +1741,6 @@ NoConn ~ 6750 2400
 NoConn ~ 6250 3550
 NoConn ~ 6750 3350
 NoConn ~ 6250 4700
-NoConn ~ 6750 4600
 Text GLabel 850  2200 0    50   Output ~ 0
 RA7
 Wire Wire Line
@@ -1749,4 +1749,19 @@ Text GLabel 2000 2200 2    50   Output ~ 0
 RA6
 Wire Wire Line
 	2000 2200 1800 2200
+$Comp
+L GND #PWR?
+U 1 1 557FF558
+P 7250 4650
+F 0 "#PWR?" H 7250 4400 60  0001 C CNN
+F 1 "GND" H 7250 4500 60  0000 C CNN
+F 2 "" H 7250 4650 60  0000 C CNN
+F 3 "" H 7250 4650 60  0000 C CNN
+	1    7250 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 4600 7250 4600
+Wire Wire Line
+	7250 4600 7250 4650
 $EndSCHEMATC
