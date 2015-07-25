@@ -1,4 +1,4 @@
-update=Mon 13 Jul 2015 10:57:29 BST
+update=Thu 23 Jul 2015 11:44:44 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,9 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../../../Public Documents/Electronics/KiCAD/Libraries/bhoskins
+LibDir=../../../../hoskinstech/bjh-kicad-schematic-library
 [eeschema/libraries]
 LibName1=TFCB_ATV_HAT-rescue
 LibName2=power
@@ -60,12 +70,13 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
-LibName32=/media/brian/BJH_128GB/GoogleDrive/Public Documents/Electronics/KiCAD/Libraries/bhoskins/Basics-BJH
-LibName33=/media/brian/BJH_128GB/GoogleDrive/Public Documents/Electronics/KiCAD/Libraries/bhoskins/buzzer
-LibName34=/media/brian/BJH_128GB/GoogleDrive/Public Documents/Electronics/KiCAD/Libraries/bhoskins/Connectors-BJH
-LibName35=/media/brian/BJH_128GB/GoogleDrive/Public Documents/Electronics/KiCAD/Libraries/bhoskins/Devices-BJH
-LibName36=/media/brian/BJH_128GB/GoogleDrive/Public Documents/Electronics/KiCAD/Libraries/bhoskins/LCD-BJH
-LibName37=/media/brian/BJH_128GB/GoogleDrive/Public Documents/Electronics/KiCAD/Libraries/bhoskins/Microchip-BJH
-LibName38=/media/brian/BJH_128GB/GoogleDrive/Public Documents/Electronics/KiCAD/Libraries/bhoskins/Oscillators-BJH
-LibName39=/media/brian/BJH_128GB/GoogleDrive/Public Documents/Electronics/KiCAD/Libraries/bhoskins/PowerSymbols-BJH
-LibName40=/media/brian/BJH_128GB/GoogleDrive/Public Documents/Electronics/KiCAD/Libraries/bhoskins/Relays
+LibName32=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library/buzzer
+LibName33=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library/Relays
+LibName34=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library/PowerSymbols-BJH
+LibName35=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library/Oscillators-BJH
+LibName36=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library/Microchip-BJH
+LibName37=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library/LCD-BJH
+LibName38=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library/Devices-BJH
+LibName39=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library/Connectors-BJH
+LibName40=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library/Basics-BJH
+LibName41=Transistors-BJH
