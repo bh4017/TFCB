@@ -29,25 +29,26 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Basics-BJH
 LIBS:buzzer
-LIBS:Connectors-BJH
-LIBS:Devices-BJH
-LIBS:LCD-BJH
-LIBS:Microchip-BJH
-LIBS:Oscillators-BJH
-LIBS:PowerSymbols-BJH
 LIBS:Relays
+LIBS:PowerSymbols-BJH
+LIBS:Oscillators-BJH
+LIBS:Microchip-BJH
+LIBS:LCD-BJH
+LIBS:Devices-BJH
+LIBS:Connectors-BJH
+LIBS:Basics-BJH
+LIBS:Transistors-BJH
 LIBS:TFCB_ATV_HAT-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
-Comp "KSR Electronic Systems"
+Comp "hoskins.tech"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -82,11 +83,5 @@ S 3550 2900 1800 1300
 U 55A3B3AB
 F0 "Indication" 60
 F1 "Indication.sch" 60
-$EndSheet
-$Sheet
-S 3600 4550 1800 1300
-U 55A3B01A
-F0 "SenseComms" 60
-F1 "SenseComms.sch" 60
 $EndSheet
 $EndSCHEMATC
