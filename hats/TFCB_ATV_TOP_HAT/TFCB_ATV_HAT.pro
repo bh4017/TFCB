@@ -1,4 +1,4 @@
-update=Thu 23 Jul 2015 11:44:44 BST
+update=Wed 29 Jul 2015 10:57:01 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=../../../../hoskinstech/bjh-kicad-schematic-library
@@ -80,3 +70,13 @@ LibName38=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library
 LibName39=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library/Connectors-BJH
 LibName40=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library/Basics-BJH
 LibName41=Transistors-BJH
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
