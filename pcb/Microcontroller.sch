@@ -1,4 +1,14 @@
 EESchema Schematic File Version 2
+LIBS:Basics-BJH
+LIBS:buzzer
+LIBS:Connectors-BJH
+LIBS:Devices-BJH
+LIBS:LCD-BJH
+LIBS:Microchip-BJH
+LIBS:Oscillators-BJH
+LIBS:PowerSymbols-BJH
+LIBS:Relays
+LIBS:Transistors-BJH
 LIBS:TFCB-rescue
 LIBS:power
 LIBS:device
@@ -30,14 +40,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:transistors_gaui
-LIBS:Devices-BJH
-LIBS:Relays
-LIBS:Connectors-BJH
-LIBS:Microchip-BJH
-LIBS:LCD-BJH
-LIBS:PowerSymbols-BJH
-LIBS:Basics-BJH
-LIBS:buzzer
 LIBS:transistor-fet
 LIBS:TFCB-cache
 EELAYER 25 0
@@ -1750,10 +1752,10 @@ RA6
 Wire Wire Line
 	2000 2200 1800 2200
 $Comp
-L GND #PWR?
+L GND #PWR041
 U 1 1 557FF558
 P 7250 4650
-F 0 "#PWR?" H 7250 4400 60  0001 C CNN
+F 0 "#PWR041" H 7250 4400 60  0001 C CNN
 F 1 "GND" H 7250 4500 60  0000 C CNN
 F 2 "" H 7250 4650 60  0000 C CNN
 F 3 "" H 7250 4650 60  0000 C CNN

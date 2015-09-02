@@ -1,4 +1,14 @@
 EESchema Schematic File Version 2
+LIBS:Basics-BJH
+LIBS:buzzer
+LIBS:Connectors-BJH
+LIBS:Devices-BJH
+LIBS:LCD-BJH
+LIBS:Microchip-BJH
+LIBS:Oscillators-BJH
+LIBS:PowerSymbols-BJH
+LIBS:Relays
+LIBS:Transistors-BJH
 LIBS:TFCB-rescue
 LIBS:power
 LIBS:device
@@ -30,14 +40,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:transistors_gaui
-LIBS:Devices-BJH
-LIBS:Relays
-LIBS:Connectors-BJH
-LIBS:Microchip-BJH
-LIBS:LCD-BJH
-LIBS:PowerSymbols-BJH
-LIBS:Basics-BJH
-LIBS:buzzer
 LIBS:transistor-fet
 LIBS:TFCB-cache
 EELAYER 25 0
