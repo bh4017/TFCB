@@ -1,15 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Basics-BJH
-LIBS:buzzer
-LIBS:Connectors-BJH
-LIBS:Devices-BJH
-LIBS:LCD-BJH
-LIBS:Microchip-BJH
-LIBS:Oscillators-BJH
-LIBS:PowerSymbols-BJH
-LIBS:Relays
-LIBS:Transistors-BJH
-LIBS:TFCB-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,31 +28,28 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:TFCB-cache
+LIBS:Basics-BJH
+LIBS:buzzer
+LIBS:Connectors-BJH
+LIBS:Devices-BJH
+LIBS:LCD-BJH
+LIBS:Microchip-BJH
+LIBS:Oscillators-BJH
+LIBS:PowerSymbols-BJH
+LIBS:Relays
+LIBS:Transistors-BJH
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
-Comp "hoskins.tech"
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 850  900  2150 1600
-U 5507332F
-F0 "Power" 98
-F1 "Power.sch" 98
-$EndSheet
-$Sheet
-S 850  2800 2150 1600
-U 55073CC8
-F0 "Microcontroller" 60
-F1 "Microcontroller.sch" 60
-$EndSheet
 $EndSCHEMATC

@@ -1,15 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Basics-BJH
-LIBS:buzzer
-LIBS:Connectors-BJH
-LIBS:Devices-BJH
-LIBS:LCD-BJH
-LIBS:Microchip-BJH
-LIBS:Oscillators-BJH
-LIBS:PowerSymbols-BJH
-LIBS:Relays
-LIBS:Transistors-BJH
-LIBS:TFCB-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,31 +28,40 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:TFCB-cache
+LIBS:Basics-BJH
+LIBS:buzzer
+LIBS:Connectors-BJH
+LIBS:Devices-BJH
+LIBS:LCD-BJH
+LIBS:Microchip-BJH
+LIBS:Oscillators-BJH
+LIBS:PowerSymbols-BJH
+LIBS:Relays
+LIBS:Transistors-BJH
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
-Comp "hoskins.tech"
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 850  900  2150 1600
-U 5507332F
-F0 "Power" 98
-F1 "Power.sch" 98
-$EndSheet
-$Sheet
-S 850  2800 2150 1600
-U 55073CC8
-F0 "Microcontroller" 60
-F1 "Microcontroller.sch" 60
-$EndSheet
+$Comp
+L 4000series-4514 U?
+U 1 1 55E70441
+P 3300 2350
+F 0 "U?" H 3000 3300 60  0000 C CNN
+F 1 "4000series-4514" V 3300 2300 60  0001 C CNN
+F 2 "" H 3500 2300 60  0000 C CNN
+F 3 "" H 3500 2300 60  0000 C CNN
+F 4 "4514" H 3300 2350 60  0000 C CNN "Device"
+	1    3300 2350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Wed 02 Sep 2015 09:47:00 BST
+update=Mon 07 Sep 2015 10:45:13 BST
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,3 +68,4 @@ LibName36=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library
 LibName37=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library/PowerSymbols-BJH
 LibName38=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library/Relays
 LibName39=/home/brian/programming/github/hoskinstech/bjh-kicad-schematic-library/Transistors-BJH
+LibName40=4000series-BJH

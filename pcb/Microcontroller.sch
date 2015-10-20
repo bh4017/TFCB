@@ -39,8 +39,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:transistors_gaui
-LIBS:transistor-fet
 LIBS:TFCB-cache
 EELAYER 25 0
 EELAYER END

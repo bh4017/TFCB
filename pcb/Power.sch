@@ -39,8 +39,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:transistors_gaui
-LIBS:transistor-fet
 LIBS:TFCB-cache
 EELAYER 25 0
 EELAYER END
@@ -56,17 +54,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Q_PMOS_GDS-RESCUE-TFCB Q1
-U 1 1 5507406A
-P 1050 6300
-F 0 "Q1" H 1350 6350 50  0000 R CNN
-F 1 "Q_PMOS_GDS" H 1700 6250 50  0001 R CNN
-F 2 "bjh-kicad-transistor-fp:TO-263" H 1250 6400 29  0001 C CNN
-F 3 "" H 1050 6300 60  0000 C CNN
-	1    1050 6300
-	0    -1   -1   0   
-$EndComp
 $Comp
 L R R5
 U 1 1 550741A2
@@ -226,17 +213,6 @@ F 2 "" H 650 5850 60  0001 C CNN
 F 3 "" H 650 5850 60  0001 C CNN
 F 4 "+24V" H 650 6050 60  0000 C CNB "NAME"
 	1    650  5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L LD1086-3.3 U3
-U 1 1 5507E6C6
-P 5400 6200
-F 0 "U3" H 5750 6350 60  0000 C CNN
-F 1 "LD1086-3.3" V 6200 5900 60  0000 C CNN
-F 2 "bjh-kicad-transistor-fp:TO-263" H 5400 6200 60  0001 C CNN
-F 3 "" H 5400 6200 60  0000 C CNN
-	1    5400 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -500,8 +476,42 @@ F 3 "" H 10850 2000 60  0000 C CNN
 	1    10850 2000
 	1    0    0    -1  
 $EndComp
+$Comp
+L +24V_BJH #PWR016
+U 1 1 55083D70
+P 10550 800
+F 0 "#PWR016" H 10550 990 20  0001 C CNN
+F 1 "+24V_BJH" H 10550 990 51  0001 C CNN
+F 2 "" H 10550 800 60  0001 C CNN
+F 3 "" H 10550 800 60  0001 C CNN
+F 4 "+24V" H 10550 1000 60  0000 C CNB "NAME"
+	1    10550 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L REG-LM317 U1
+U 1 1 55393021
+P 1900 6100
+F 0 "U1" H 1950 6150 60  0000 C CNN
+F 1 "REG-LM317" V 2400 5700 60  0000 C CNN
+F 2 "bjh-kicad-transistor-fp:TO-263-with-copper-heatsink" H 1600 6000 60  0001 C CNN
+F 3 "" H 1600 6000 60  0000 C CNN
+	1    1900 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L REG-LM317 U3
+U 1 1 56126E48
+P 5700 6100
+F 0 "U3" H 5750 6150 60  0000 C CNN
+F 1 "REG-1086-3.3" V 6000 5300 60  0000 C CNN
+F 2 "bjh-kicad-transistor-fp:TO-263" H 5400 6000 60  0001 C CNN
+F 3 "" H 5400 6000 60  0000 C CNN
+	1    5700 6100
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	1600 6200 1250 6200
+	1200 6200 1600 6200
 Wire Wire Line
 	2100 6800 2100 7000
 Wire Wire Line
@@ -524,11 +534,8 @@ Wire Wire Line
 	3000 7500 3000 7300
 Connection ~ 1450 6200
 Wire Wire Line
-	1050 7500 6750 7500
+	1450 7500 6750 7500
 Connection ~ 2100 7500
-Wire Wire Line
-	1050 6500 1050 7500
-Connection ~ 1450 7500
 Wire Wire Line
 	1450 5900 1450 6650
 Wire Wire Line
@@ -562,7 +569,7 @@ Wire Wire Line
 Connection ~ 4300 7500
 Connection ~ 4800 6200
 Wire Wire Line
-	650  6200 850  6200
+	650  6200 900  6200
 Wire Wire Line
 	650  5900 650  6200
 Wire Wire Line
@@ -641,26 +648,14 @@ Wire Wire Line
 Wire Wire Line
 	10550 850  10550 900 
 $Comp
-L +24V_BJH #PWR016
-U 1 1 55083D70
-P 10550 800
-F 0 "#PWR016" H 10550 990 20  0001 C CNN
-F 1 "+24V_BJH" H 10550 990 51  0001 C CNN
-F 2 "" H 10550 800 60  0001 C CNN
-F 3 "" H 10550 800 60  0001 C CNN
-F 4 "+24V" H 10550 1000 60  0000 C CNB "NAME"
-	1    10550 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L REG-LM317 U1
-U 1 1 55393021
-P 1900 6100
-F 0 "U1" H 1950 6150 60  0000 C CNN
-F 1 "REG-LM317" V 2400 5700 60  0000 C CNN
-F 2 "bjh-kicad-transistor-fp:TO-263-with-copper-heatsink" H 1600 6000 60  0001 C CNN
-F 3 "" H 1600 6000 60  0000 C CNN
-	1    1900 6100
+L D-RESCUE-TFCB D7
+U 1 1 56263237
+P 1050 6200
+F 0 "D7" H 1050 6300 50  0000 C CNN
+F 1 "D" H 1050 6100 50  0000 C CNN
+F 2 "Diodes_SMD:DO-214AB_Handsoldering" H 1050 6200 60  0001 C CNN
+F 3 "" H 1050 6200 60  0000 C CNN
+	1    1050 6200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -42,7 +42,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -57,5 +57,17 @@ S 750  950  2250 1900
 U 55E6B754
 F0 "TFCB Connections" 60
 F1 "TFCB_Connections.sch" 60
+$EndSheet
+$Sheet
+S 750  3250 2300 1450
+U 55E6B920
+F0 "Sense" 60
+F1 "Sense.sch" 60
+$EndSheet
+$Sheet
+S 750  5050 2350 1650
+U 55E7057D
+F0 "Power" 60
+F1 "Power.sch" 60
 $EndSheet
 $EndSCHEMATC
