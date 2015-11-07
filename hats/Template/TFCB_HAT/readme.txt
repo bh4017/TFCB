@@ -1,0 +1,1 @@
+This is a TFCB hat template project.  To use it, place this TFCB_HAT directory in the templates folder for your Kicad installation.  Then, from the File menu, select New->Project from template.  Choose the TFCB template.  This will create a skeleton project for you which contains the edge cuts layer with the correct board size and also the IO connectors.
