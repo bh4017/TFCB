@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 0.201508190901+6103~28~ubuntu15.04.1-product)
+(kicad_pcb (version 4) (host pcbnew 0.201509241831+6216~30~ubuntu15.04.1-product)
 
   (general
     (links 231)
     (no_connects 0)
-    (area 30.1 30 133.183584 152.57418)
+    (area 33 33 144.5 167)
     (thickness 1.6)
     (drawings 10)
     (tracks 1037)
@@ -27,13 +27,13 @@
     (40 Dwgs.User user)
     (41 Cmts.User user)
     (42 Eco1.User user)
-    (43 Eco2.User user)
+    (43 Eco2.User user hide)
     (44 Edge.Cuts user)
     (45 Margin user)
-    (46 B.CrtYd user)
+    (46 B.CrtYd user hide)
     (47 F.CrtYd user)
     (48 B.Fab user)
-    (49 F.Fab user)
+    (49 F.Fab user hide)
   )
 
   (setup
@@ -65,7 +65,7 @@
     (pad_drill 3)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFD7F)
+    (visible_elements FFFFFB7F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -3020,13 +3020,13 @@
     )
   )
 
-  (module Housings_SOT-23_SOT-143_TSOT-6:SOT-23 (layer F.Cu) (tedit 55C35DEF) (tstamp 55B4B58D)
+  (module Housings_SOT-23_SOT-143_TSOT-6:SOT-23 (layer F.Cu) (tedit 562E0A0D) (tstamp 55B4B58D)
     (at 73.787 135.255 180)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /558E7B4C/55B10D2C)
     (attr smd)
-    (fp_text reference Q12 (at 0 -2.25 180) (layer F.SilkS)
+    (fp_text reference Q12 (at 2.187 2.255 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 2N7002 (at 0 2.3 180) (layer F.Fab) hide
